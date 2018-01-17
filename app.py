@@ -10,6 +10,8 @@ def not_found(env):
 
     return status, headers, body
 
+
+
 def bad_request(env):
     request_method = env['REQUEST_METHOD']
     request_path = env['PATH_INFO']
